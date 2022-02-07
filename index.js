@@ -38,14 +38,16 @@ loadSong(songs[songIndex], autors[autorIndex])
 // Play
 function playSong(){
   player.classList.add('play');
-  imgScr.src = './images/svg/pause.png'
+  imgScr.src = './images/svg/pause.png';
+  coverImg.classList.add('active');
   audio.play()
 }
 
 // Pause
 function pauseSong(){
   player.classList.remove('play');
-  imgScr.src = './images/svg/play.png'
+  imgScr.src = './images/svg/play.png';
+  coverImg.classList.remove('active');
   audio.pause()
 }
 playBtn.addEventListener('click', () =>{
