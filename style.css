@@ -50,12 +50,10 @@
 }
 .cover_img{
   height: 230px;
-  width: 100%;
+  width: 230px;
   border: 1px solid;
   border-bottom: 0px;
-  border-radius: 30px;
-  border-end-end-radius: 0;
-  border-bottom-left-radius: 0;
+
 }
 .song{
   font-style: normal;
